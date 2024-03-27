@@ -1,0 +1,31 @@
+.header {
+    background-color: #333; /* Warna latar belakang */
+    padding: 15px 20px; /* Jarak dalam di sekitar teks */
+  }
+  
+  .header ul {
+    list-style-type: none; /* Menghapus bullet list default */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header ul li {
+    display: inline; /* Menampilkan menu secara horizontal */
+    margin-right: 20px; /* Jarak antara setiap item menu */
+  }
+  
+  .header ul li:last-child {
+    margin-right: 0; /* Menghapus margin kanan dari item terakhir */
+  }
+  
+  .header ul li a {
+    font-weight: bold;
+    color: #fff; /* Warna teks */
+    text-decoration: none; /* Menghapus dekorasi tautan */
+    font-size: 18px; /* Ukuran teks */
+  }
+  
+  .header ul li a:hover {
+    color: #f00; /* Warna teks saat dihover */
+  }
+  

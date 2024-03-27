@@ -1,0 +1,18 @@
+.footer {
+    background-color: #222; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    padding: 20px; /* Jarak dalam di sekitar konten */
+    text-align: center; /* Posisi teks */
+  }
+  
+  .footer h3 {
+    font-size: 20px; /* Ukuran teks judul */
+    margin-bottom: 10px; /* Jarak bawah judul */
+  }
+  
+  .footer span {
+    display: block; /* Menampilkan ikon love di bawah judul */
+    font-size: 24px; /* Ukuran ikon love */
+    margin-top: 10px; /* Jarak atas ikon love */
+  }
+  

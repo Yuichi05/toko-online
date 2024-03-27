@@ -1,0 +1,44 @@
+.card {
+    border: 1px solid #ccc; /* Garis tepi kartu */
+    border-radius: 8px; /* Membuat sudut kartu melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan kartu */
+    width: 300px; /* Lebar kartu */
+    padding: 20px; /* Jarak dalam di sekitar konten kartu */
+    margin: 20px; /* Jarak antara kartu */
+  }
+  
+  .card img {
+    width: 100%; /* Lebar gambar produk */
+    border-radius: 8px; /* Membuat sudut gambar melengkung */
+  }
+  
+  .text-label {
+    margin-top: 10px; /* Jarak atas label nama produk */
+  }
+  
+  .text-label h3 {
+    margin: 0; /* Menghapus margin atas dan bawah pada judul */
+    font-size: 16px; /* Ukuran teks judul */
+  }
+  
+  h5 {
+    margin: 10px 0; /* Jarak atas dan bawah pada harga */
+  }
+  .spn {
+    color: red;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none; /* Menghapus border tombol */
+    border-radius: 4px; /* Membuat sudut tombol melengkung */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+  }
+  
