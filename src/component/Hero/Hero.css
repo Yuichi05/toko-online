@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #8758ff;
+    gap: 1rem;
+}
+.hero-text {
+    flex: 1 1 17rem;
+    margin-left: 5rem;
+}
+.hero-img {
+    flex: 1 1 17rem;
+}
+.hero-img img {
+    animation: animate 3s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: translate(-11px, 0);
+    }
+    50%{
+        transform: translate(-0, -11px);
+    }
+    100%{
+        transform: translate(-11px, 0);
+    }
+}
+.hero-text span {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+.hero-text h1 {
+    font-size: 3.2rem;
+    color: yellow;
+    font-weight: bolder;
+}
+.hero-text h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0.5rem 0 1.4rem;
+}
+.btn {
+    display: inline-block;
+    background-color: #0011ff;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #3459fd;
+  }

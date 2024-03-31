@@ -7,7 +7,7 @@ const Products = (props) => {
   };
   return (
     <div class="card">
-      <img src={gambar} alt="foto-kursi" />
+      <img src={gambar} alt="foto-barang" />
       <div class="text-label">
         <h3>Nama Produk : {produk}</h3>
       </div>

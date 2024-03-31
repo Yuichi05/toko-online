@@ -1,31 +1,60 @@
-.header {
-    background-color: #333; /* Warna latar belakang */
-    padding: 15px 20px; /* Jarak dalam di sekitar teks */
-  }
-  
-  .header ul {
-    list-style-type: none; /* Menghapus bullet list default */
-    margin: 0;
-    padding: 0;
-  }
-  
-  .header ul li {
-    display: inline; /* Menampilkan menu secara horizontal */
-    margin-right: 20px; /* Jarak antara setiap item menu */
-  }
-  
-  .header ul li:last-child {
-    margin-right: 0; /* Menghapus margin kanan dari item terakhir */
-  }
-  
-  .header ul li a {
-    font-weight: bold;
-    color: #fff; /* Warna teks */
-    text-decoration: none; /* Menghapus dekorasi tautan */
-    font-size: 18px; /* Ukuran teks */
-  }
-  
-  .header ul li a:hover {
-    color: #f00; /* Warna teks saat dihover */
-  }
-  
+:root {
+  --main-color: #8758ff;
+  --second-color: #000000;
+}
+section{
+  padding: 50px;
+}
+*::selection {
+  color: cyan;
+  background: var(--main-color);
+}
+img {
+  width: 100%;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+  padding: 15px 10%;
+  transition: 0.2s;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo p {
+  color: var(--second-color);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.logo p:hover {
+  color: #8758ff;
+}
+.navbar {
+  display: flex;
+}
+.navbar a {
+  font-size: 1rem;
+  padding: 11px 20px;
+  color: var(--second-color);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.navbar a:hover {
+  color: var(--main-color);
+}
+#menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1001;
+  display: none;
+}
