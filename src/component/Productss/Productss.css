@@ -2,8 +2,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 50px;
   }
   
+  h2 {
+    margin: 20px;
+  }
+
   .Products {
     width: 300px;
     border: 1px solid #ddd;

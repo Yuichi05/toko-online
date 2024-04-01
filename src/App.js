@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Main />
-      <Footer nama="Muhammad Yusuf" />
+      <Footer nama="Yuichi" />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 .card {
-    border: 1px solid #ccc; /* Garis tepi kartu */
-    border-radius: 8px; /* Membuat sudut kartu melengkung */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan kartu */
-    width: 300px; /* Lebar kartu */
-    padding: 20px; /* Jarak dalam di sekitar konten kartu */
-    margin: 20px; /* Jarak antara kartu */
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 30px; 
+    margin: 15px; 
   }
   
   .card img {
